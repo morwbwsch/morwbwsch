@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* por defecto es 100%, 62,5% cambia la base de 16p a 10p */
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import "variables";
+@import "mixins";
+@import "index";
+@import "aboutme";
+@import "ejercicio";
+@import "design";
+@import "contactinfo";
+@import "artworks";
+@import "mediaqueries";

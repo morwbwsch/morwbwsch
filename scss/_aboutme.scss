@@ -1,0 +1,74 @@
+.bodyAbout {
+    @include fondo (Marron)
+    header {
+        display: flex;
+        justify-content:space-between;
+        background-color: $transp;
+        width: 100%;
+        img {
+            width: 10%;
+        }
+        .logo__xl {
+            display: block;
+        }
+        .logo__xs {
+            display: none
+        }
+        .navegacion {
+            text-align: left;
+            .menuSelec {
+                background-color: $gris;
+                
+            }
+            li {
+                list-style: none;
+                list-style-type: none;
+                display: inline-block;
+                margin: 2rem;
+                a {
+                    text-decoration: none;
+                    color: $negro;
+                    font-size: 2rem;
+                    padding: 0.5rem;
+                }
+                &:hover {
+                    background-color: $gris;
+                }
+            }
+        }
+    }
+    .seccion__principalAbout {
+        h1 {
+        color: $rosa;
+        background-color: $gris;
+        height: auto;
+        width: fit-content;
+        padding: 2rem;  
+        margin: 3rem auto auto 3rem;
+        font-weight: 900;
+        font-size: $h1__xl;
+        }
+        h2 {
+            color: $negro;
+            background-color: $gris;
+            height: auto;
+            width: fit-content;
+            padding: 2rem;  
+            margin: 0 auto auto 3rem; 
+            font-size: $h2__xl;
+        }
+    }
+    .seccion__secundariaAbout {
+        background-color: $gris;
+        height: auto;
+        width: 50%;
+        padding: 2rem;
+        text-align: justify;
+        margin: 3rem 3rem auto auto;
+        color: hsl(0, 0%, 0%);
+        font-size: 1.5rem;
+        font-weight: 900;
+        line-height: 25px;
+    }
+}
+

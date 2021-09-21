@@ -1,0 +1,74 @@
+.bodyIndex {
+    @include fondo(Rosa);
+    header {
+        display: flex;
+        justify-content:space-between;
+        background-color: $transp;
+        width: 100%;
+        img {
+            width: 10%;
+        }
+        .logo__xl {
+            display: block;
+        }
+        
+        .logo__xs {
+            display: none
+        }
+        .navegacion {
+            text-align: left;
+            .menuSelec {
+                background-color: $gris;
+                
+            }
+            li {
+                list-style: none;
+                list-style-type: none;
+                display: inline-block;
+                margin: 2rem;
+                a {
+                    text-decoration: none;
+                    color: $negro;
+                    font-size: 2rem;
+                    padding: 0.5rem;
+                }
+                &:hover {
+                    background-color: $gris;
+                }
+            }
+        }
+    }
+    .seccion__principalIndex h1 {
+        color: $rosa;
+        background-color: $gris;
+        height: auto;
+        width: fit-content;
+        padding: 2rem;  
+        margin: 3rem auto auto 3rem;
+        font-weight: 900;
+        font-size: 4rem;
+    }
+    .seccion__principalIndex h2 {
+            color: $negro;
+            background-color: $gris;
+            height: auto;
+            width: fit-content;
+            padding: 2rem;  
+            margin: 0 auto auto 3rem; 
+            font-size: $h2__xl;
+    }
+    footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: $negro;
+        text-align: center;
+        margin: 3rem auto;
+    }
+}
+
+
+
+
+
+
