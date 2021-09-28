@@ -1,3 +1,40 @@
+header {
+    display: flex;
+    justify-content:space-between;
+    background-color: $transp;
+    width: 100%;
+    img {
+        width: 10%;
+    }
+    .logo__xl {
+        display: block;
+    }
+    .logo__xs {
+        display: none
+    }
+    .navegacion {
+        text-align: left;
+        .menuSelec {
+            background-color: $gris;
+            
+        }
+        li {
+            list-style: none;
+            list-style-type: none;
+            display: inline-block;
+            margin: 2rem;
+            a {
+                text-decoration: none;
+                color: $negro;
+                font-size: 2rem;
+                padding: 0.5rem;
+            }
+            &:hover {
+                background-color: $gris;
+            }
+        }
+    }
+}
 .seccion__principalDesign h2 {
     color:$negro;
     background-color: $gris;

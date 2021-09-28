@@ -39,14 +39,7 @@
         }
     }
     .seccion__principalIndex h1 {
-        color: $rosa;
-        background-color: $gris;
-        height: auto;
-        width: fit-content;
-        padding: 2rem;  
-        margin: 3rem auto auto 3rem;
-        font-weight: 900;
-        font-size: 4rem;
+        @include hi ($rosa, $gris);
     }
     .seccion__principalIndex h2 {
             color: $negro;

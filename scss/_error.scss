@@ -1,0 +1,71 @@
+.bodyError {
+    @include fondo(Negro);
+    header {
+        display: flex;
+        justify-content:space-between;
+        background-color: $transp;
+        width: 100%;
+        img {
+            width: 10%;
+        }
+        .logo__xl {
+            display: block;
+        }
+        
+        .logo__xs {
+            display: none
+        }
+        .navegacion {
+            text-align: left;
+            .menuSelec {
+                background-color: $gris;
+                
+            }
+            li {
+                list-style: none;
+                list-style-type: none;
+                display: inline-block;
+                margin: 2rem;
+                a {
+                    text-decoration: none;
+                    color: $negro;
+                    font-size: 2rem;
+                    padding: 0.5rem;
+                }
+                &:hover {
+                    background-color: $gris;
+                }
+            }
+        }
+    }
+    .seccion__principalError h1 {
+        @include hi ($negro, $transp);
+    }
+    .seccion__principalError h2 {
+            color: $negro;
+            background-color: white;
+            height: auto;
+            width: fit-content;
+            padding: 2rem;  
+            margin: 0 auto auto 3rem; 
+            font-size: $h2__xl;
+    }
+    .error__back {
+        display: block;
+        text-align: center;
+        margin-top: 25rem;
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 5rem;
+            font-weight: 900;
+            text-align: center;
+            &:hover {
+                text-decoration: none;
+                color: black;
+                background-color: white;
+            }
+        }
+
+    }
+}

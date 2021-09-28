@@ -39,14 +39,7 @@
     }
     .seccion__principalAbout {
         h1 {
-        color: $rosa;
-        background-color: $gris;
-        height: auto;
-        width: fit-content;
-        padding: 2rem;  
-        margin: 3rem auto auto 3rem;
-        font-weight: 900;
-        font-size: $h1__xl;
+            @include hi ($rosa, $gris)
         }
         h2 {
             color: $negro;
@@ -69,6 +62,10 @@
         font-size: 1.5rem;
         font-weight: 900;
         line-height: 25px;
+    }
+    .seccion__secundariaAbout--dos {
+        @extend .seccion__secundariaAbout;
+        margin: 3rem auto 3rem 3rem;
     }
 }
 

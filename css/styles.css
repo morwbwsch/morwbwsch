@@ -181,7 +181,7 @@ html {
   font-size: 2.5rem;
 }
 
-.bodyAbout .seccion__secundariaAbout {
+.bodyAbout .seccion__secundariaAbout, .bodyAbout .seccion__secundariaAbout--dos {
   background-color: #D9D9D9;
   height: auto;
   width: 50%;
@@ -192,6 +192,10 @@ html {
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 25px;
+}
+
+.bodyAbout .seccion__secundariaAbout--dos {
+  margin: 3rem auto 3rem 3rem;
 }
 
 .bodyEjercicio {
@@ -287,6 +291,55 @@ html {
   margin: 3rem;
   font-size: 1rem;
   background-color: #BF786F;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #bf786f00;
+  width: 100%;
+}
+
+header img {
+  width: 10%;
+}
+
+header .logo__xl {
+  display: block;
+}
+
+header .logo__xs {
+  display: none;
+}
+
+header .navegacion {
+  text-align: left;
+}
+
+header .navegacion .menuSelec {
+  background-color: #D9D9D9;
+}
+
+header .navegacion li {
+  list-style: none;
+  list-style-type: none;
+  display: inline-block;
+  margin: 2rem;
+}
+
+header .navegacion li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+header .navegacion li:hover {
+  background-color: #D9D9D9;
 }
 
 .seccion__principalDesign h2 {
@@ -459,6 +512,106 @@ header .navegacion li:hover {
 .seccion__secundariaArtworks {
   text-align: center;
   margin-top: 10%;
+}
+
+.bodyError {
+  background-image: url("../imagenes/fondoNegro.png");
+  background-size: 1920px;
+  background-repeat: no-repeat;
+}
+
+.bodyError header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #bf786f00;
+  width: 100%;
+}
+
+.bodyError header img {
+  width: 10%;
+}
+
+.bodyError header .logo__xl {
+  display: block;
+}
+
+.bodyError header .logo__xs {
+  display: none;
+}
+
+.bodyError header .navegacion {
+  text-align: left;
+}
+
+.bodyError header .navegacion .menuSelec {
+  background-color: #D9D9D9;
+}
+
+.bodyError header .navegacion li {
+  list-style: none;
+  list-style-type: none;
+  display: inline-block;
+  margin: 2rem;
+}
+
+.bodyError header .navegacion li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.bodyError header .navegacion li:hover {
+  background-color: #D9D9D9;
+}
+
+.bodyError .seccion__principalError h1 {
+  color: #000000;
+  background-color: #bf786f00;
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem;
+  margin: 3rem auto auto 3rem;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.bodyError .seccion__principalError h2 {
+  color: #000000;
+  background-color: white;
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem;
+  margin: 0 auto auto 3rem;
+  font-size: 2.5rem;
+}
+
+.bodyError .error__back {
+  display: block;
+  text-align: center;
+  margin-top: 25rem;
+}
+
+.bodyError .error__back a {
+  text-decoration: none;
+  color: white;
+  font-size: 5rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.bodyError .error__back a:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
 }
 
 @media only screen and (max-width: 768px) {
