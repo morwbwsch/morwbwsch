@@ -51,12 +51,14 @@
             font-size: $h2__xl;
     }
     footer {
+        position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
         color: $negro;
         text-align: center;
         margin: 3rem auto;
+    
     }
 }
 
