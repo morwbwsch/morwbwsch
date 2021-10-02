@@ -47,7 +47,7 @@
             height: auto;
             width: fit-content;
             padding: 2rem;  
-            margin: 0 auto auto 3rem; 
+            margin: 0 auto 3rem 3rem; 
             font-size: $h2__xl;
         }
     }
@@ -66,6 +66,15 @@
     .seccion__secundariaAbout--dos {
         @extend .seccion__secundariaAbout;
         margin: 3rem auto 3rem 3rem;
+    }
+    footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: $negro;
+        text-align: center;
+        margin: 3rem auto;
     }
 }
 
