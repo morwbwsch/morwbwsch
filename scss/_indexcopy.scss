@@ -1,5 +1,8 @@
 .bodyIndexcopy {
     @include fondo(Rosa);
+    .navbar-brand img {
+        width: 18rem;
+    }
     .seccion__principalIndexcopy h1 {
         @include hi ($rosa, $gris);
     }
