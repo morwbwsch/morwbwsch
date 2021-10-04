@@ -1,55 +1,43 @@
 .bodyIndex {
-    @include fondo(Rosa);
-    header {
-        display: flex;
-        justify-content:space-between;
-        background-color: $transp;
-        width: 100%;
-        img {
-            width: 10%;
+    background-color: yellow;
+    @include fondo(3);
+    nav {
+        .navbar-brand img {
+            width: 15rem;
         }
-        .logo__xl {
-            display: block;
-        }
-        
-        .logo__xs {
-            display: none
-        }
-        .navegacion {
-            text-align: left;
-            .menuSelec {
-                background-color: $gris;
-                
-            }
-            li {
-                list-style: none;
-                list-style-type: none;
-                display: inline-block;
-                margin: 2rem;
-                a {
-                    text-decoration: none;
-                    color: $negro;
-                    font-size: 2rem;
-                    padding: 0.5rem;
-                }
-                &:hover {
-                    background-color: $gris;
-                }
-            }
-        }
-    }
-    .seccion__principalIndex h1 {
-        @include hi ($rosa, $gris);
-    }
-    .seccion__principalIndex h2 {
-            color: $negro;
+        .menuSelec {
             background-color: $gris;
+            color: black;
+        }
+        li {
+            margin: 1.4rem;
+            a {
+                color: $negro;
+                font-size: 2rem;
+                padding: 0.5rem;
+            }
+            &:hover {
+                background-color: yellow;
+            }
+        }
+    }
+
+    .seccion__principalIndex {
+        margin-left: 5%;
+        h1 {
+            @include hi (white, $negro);
+        }
+        h2 {
+            color: white;
+            background-color:$negro;
             height: auto;
             width: fit-content;
             padding: 2rem;  
             margin: 0 auto auto 3rem; 
             font-size: $h2__xl;
+        }
     }
+
     footer {
         position: absolute;
         left: 0;
@@ -58,6 +46,7 @@
         color: $negro;
         text-align: center;
         margin: 3rem auto;
+        font-size: 1.3rem;
     }
 }
 

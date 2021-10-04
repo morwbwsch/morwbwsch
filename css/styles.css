@@ -13,83 +13,62 @@ html {
 }
 
 .bodyIndex {
-  background-image: url("../imagenes/fondoRosa.png");
+  background-color: yellow;
+  background-image: url("../imagenes/fondo3.png");
   background-size: 1920px;
   background-repeat: no-repeat;
 }
 
-.bodyIndex header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #bf786f00;
-  width: 100%;
+.bodyIndex nav .navbar-brand img {
+  width: 15rem;
 }
 
-.bodyIndex header img {
-  width: 10%;
-}
-
-.bodyIndex header .logo__xl {
-  display: block;
-}
-
-.bodyIndex header .logo__xs {
-  display: none;
-}
-
-.bodyIndex header .navegacion {
-  text-align: left;
-}
-
-.bodyIndex header .navegacion .menuSelec {
+.bodyIndex nav .menuSelec {
   background-color: #D9D9D9;
+  color: black;
 }
 
-.bodyIndex header .navegacion li {
-  list-style: none;
-  list-style-type: none;
-  display: inline-block;
-  margin: 2rem;
+.bodyIndex nav li {
+  margin: 1.4rem;
 }
 
-.bodyIndex header .navegacion li a {
-  text-decoration: none;
+.bodyIndex nav li a {
   color: #000000;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-.bodyIndex header .navegacion li:hover {
-  background-color: #D9D9D9;
+.bodyIndex nav li:hover {
+  background-color: yellow;
+}
+
+.bodyIndex .seccion__principalIndex {
+  margin-left: 5%;
 }
 
 .bodyIndex .seccion__principalIndex h1 {
-  color: #BF786F;
-  background-color: #D9D9D9;
+  color: white;
+  background-color: #000000;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem;
-  margin: 3rem auto auto 3rem;
-  font-weight: 900;
-  font-size: 4rem;
+  margin: 12rem auto auto 3rem;
+  font-weight: 700;
+  font-size: 6rem;
 }
 
 .bodyIndex .seccion__principalIndex h2 {
-  color: #000000;
-  background-color: #D9D9D9;
+  color: white;
+  background-color: #000000;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem;
   margin: 0 auto auto 3rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .bodyIndex footer {
@@ -100,6 +79,7 @@ html {
   color: #000000;
   text-align: center;
   margin: 3rem auto;
+  font-size: 1.3rem;
 }
 
 .bodyIndexcopy {
@@ -138,9 +118,9 @@ html {
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem;
-  margin: 3rem auto auto 3rem;
-  font-weight: 900;
-  font-size: 4rem;
+  margin: 12rem auto auto 3rem;
+  font-weight: 700;
+  font-size: 6rem;
 }
 
 .bodyIndexcopy .seccion__principalIndexcopy h2 {
@@ -152,7 +132,7 @@ html {
   width: fit-content;
   padding: 2rem;
   margin: 0 auto auto 3rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .bodyIndexcopy footer {
@@ -167,83 +147,62 @@ html {
 }
 
 .bodyAbout {
-  background-image: url("../imagenes/fondoMarron.png");
+  background-color: deeppink;
+  background-image: url("../imagenes/fondo0.png");
   background-size: 1920px;
   background-repeat: no-repeat;
 }
 
-.bodyAbout header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #bf786f00;
-  width: 100%;
+.bodyAbout nav .navbar-brand img {
+  width: 15rem;
 }
 
-.bodyAbout header img {
-  width: 10%;
+.bodyAbout nav .menuSelec {
+  background-color: deeppink;
+  color: black;
 }
 
-.bodyAbout header .logo__xl {
-  display: block;
+.bodyAbout nav li {
+  margin: 1.4rem;
 }
 
-.bodyAbout header .logo__xs {
-  display: none;
-}
-
-.bodyAbout header .navegacion {
-  text-align: left;
-}
-
-.bodyAbout header .navegacion .menuSelec {
-  background-color: #D9D9D9;
-}
-
-.bodyAbout header .navegacion li {
-  list-style: none;
-  list-style-type: none;
-  display: inline-block;
-  margin: 2rem;
-}
-
-.bodyAbout header .navegacion li a {
-  text-decoration: none;
+.bodyAbout nav li a {
   color: #000000;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-.bodyAbout header .navegacion li:hover {
-  background-color: #D9D9D9;
+.bodyAbout nav li:hover {
+  background-color: deeppink;
+}
+
+.bodyAbout .seccion__principalAbout {
+  margin-left: 5%;
 }
 
 .bodyAbout .seccion__principalAbout h1 {
-  color: #BF786F;
-  background-color: #D9D9D9;
+  color: white;
+  background-color: #000000;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem;
-  margin: 3rem auto auto 3rem;
-  font-weight: 900;
-  font-size: 4rem;
+  margin: 12rem auto auto 3rem;
+  font-weight: 700;
+  font-size: 6rem;
 }
 
 .bodyAbout .seccion__principalAbout h2 {
-  color: #000000;
-  background-color: #D9D9D9;
+  color: white;
+  background-color: #000000;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem;
   margin: 0 auto 3rem 3rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .bodyAbout .seccion__secundariaAbout, .bodyAbout .seccion__secundariaAbout--dos {
@@ -426,7 +385,7 @@ header .navegacion li:hover {
   width: fit-content;
   padding: 2%;
   margin: 2% auto;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .seccion__secundariaDesign {
@@ -497,9 +456,9 @@ header .navegacion li:hover {
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem;
-  margin: 3rem auto auto 3rem;
-  font-weight: 900;
-  font-size: 4rem;
+  margin: 12rem auto auto 3rem;
+  font-weight: 700;
+  font-size: 6rem;
 }
 
 .bodyContact .seccion__secundariaContact {
@@ -519,68 +478,53 @@ header .navegacion li:hover {
   text-align: center;
 }
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #bf786f00;
-  width: 100%;
+.bodyArtworks {
+  background-color: lightblue;
+  background-image: url("../imagenes/fondo7.png");
+  background-size: 1920px;
+  background-repeat: no-repeat;
 }
 
-header img {
-  width: 10%;
+.bodyArtworks nav .navbar-brand img {
+  width: 15rem;
 }
 
-header .logo__xl {
-  display: block;
+.bodyArtworks nav .menuSelec {
+  background-color: lightblue;
+  color: black;
 }
 
-header .logo__xs {
-  display: none;
+.bodyArtworks nav li {
+  margin: 1.4rem;
 }
 
-header .navegacion {
-  text-align: left;
-}
-
-header .navegacion .menuSelec {
-  background-color: #D9D9D9;
-}
-
-header .navegacion li {
-  list-style: none;
-  list-style-type: none;
-  display: inline-block;
-  margin: 2rem;
-}
-
-header .navegacion li a {
-  text-decoration: none;
+.bodyArtworks nav li a {
   color: #000000;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-header .navegacion li:hover {
-  background-color: #D9D9D9;
+.bodyArtworks nav li:hover {
+  background-color: lightblue;
 }
 
-.seccion__principalArtworks h2 {
-  color: #000000;
-  background-color: #D9D9D9;
+.bodyArtworks .seccion__principalArtworks {
+  margin-left: 5%;
+}
+
+.bodyArtworks .seccion__principalArtworks h2 {
+  color: white;
+  background-color: #000000;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 2%;
-  margin: 2% auto;
-  font-size: 2.5rem;
+  padding: 2rem;
+  margin: 15rem auto 3rem 3rem;
+  font-size: 4rem;
 }
 
-.seccion__secundariaArtworks {
+.bodyArtworks .seccion__secundariaArtworks {
   text-align: center;
   margin-top: 10%;
 }
@@ -648,9 +592,9 @@ header .navegacion li:hover {
   width: -moz-fit-content;
   width: fit-content;
   padding: 2rem;
-  margin: 3rem auto auto 3rem;
-  font-weight: 900;
-  font-size: 4rem;
+  margin: 12rem auto auto 3rem;
+  font-weight: 700;
+  font-size: 6rem;
 }
 
 .bodyError .seccion__principalError h2 {
@@ -662,7 +606,7 @@ header .navegacion li:hover {
   width: fit-content;
   padding: 2rem;
   margin: 0 auto auto 3rem;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .bodyError .error__back {

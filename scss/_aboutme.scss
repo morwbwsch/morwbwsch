@@ -1,49 +1,34 @@
 .bodyAbout {
-    @include fondo (Marron)
-    header {
-        display: flex;
-        justify-content:space-between;
-        background-color: $transp;
-        width: 100%;
-        img {
-            width: 10%;
+    background-color: deeppink;
+    @include fondo(0);
+    nav {
+        .navbar-brand img {
+            width: 15rem;
         }
-        .logo__xl {
-            display: block;
+        .menuSelec {
+            background-color: deeppink;
+            color: black;
         }
-        .logo__xs {
-            display: none
-        }
-        .navegacion {
-            text-align: left;
-            .menuSelec {
-                background-color: $gris;
-                
+        li {
+            margin: 1.4rem;
+            a {
+                color: $negro;
+                font-size: 2rem;
+                padding: 0.5rem;
             }
-            li {
-                list-style: none;
-                list-style-type: none;
-                display: inline-block;
-                margin: 2rem;
-                a {
-                    text-decoration: none;
-                    color: $negro;
-                    font-size: 2rem;
-                    padding: 0.5rem;
-                }
-                &:hover {
-                    background-color: $gris;
-                }
+            &:hover {
+                background-color:deeppink;
             }
         }
     }
     .seccion__principalAbout {
+        margin-left: 5%;
         h1 {
-            @include hi ($rosa, $gris)
+            @include hi (white, $negro)
         }
         h2 {
-            color: $negro;
-            background-color: $gris;
+            color: white;
+            background-color: $negro;
             height: auto;
             width: fit-content;
             padding: 2rem;  
