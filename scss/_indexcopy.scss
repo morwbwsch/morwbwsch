@@ -1,8 +1,25 @@
 .bodyIndexcopy {
     @include fondo(Rosa);
-    .navbar-brand img {
-        width: 18rem;
+    nav {
+        .navbar-brand img {
+            width: 15rem;
+        }
+        .menuSelec {
+            background-color: $gris;
+        }
+        li {
+            margin: 1.4rem;
+            a {
+                color: $negro;
+                font-size: 2rem;
+                padding: 0.5rem;
+            }
+            &:hover {
+                background-color: $gris;
+            }
+        }
     }
+
     .seccion__principalIndexcopy h1 {
         @include hi ($rosa, $gris);
     }
@@ -15,6 +32,7 @@
             margin: 0 auto auto 3rem; 
             font-size: $h2__xl;
     }
+
     footer {
         position: absolute;
         left: 0;
@@ -23,5 +41,6 @@
         color: $negro;
         text-align: center;
         margin: 3rem auto;
+        font-size: 1.3rem;
     }
 }
