@@ -1,53 +1,39 @@
 .bodyContact {
-    @include fondo(Gris);
-    header {
-        display: flex;
-        justify-content:space-between;
-        background-color: $transp;
+    background-color: lavender;
+    @include fondo(8);
+    nav {
         width: 100%;
-        img {
-            width: 10%;
+        .navbar-brand img {
+            width: 15rem;
         }
-        .logo__xl {
-            display: block;
+        .menuSelec {
+            background-color: lavender;
+            color: black;
         }
-        .logo__xs {
-            display: none
-        }
-        .navegacion {
-            text-align: left;
-            .menuSelec {
-                background-color: $gris;
-                
+        li {
+            margin: 1.4rem;
+            a {
+                color: $negro;
+                font-size: 2rem;
+                padding: 0.5rem;
             }
-            li {
-                list-style: none;
-                list-style-type: none;
-                display: inline-block;
-                margin: 2rem;
-                a {
-                    text-decoration: none;
-                    color: $negro;
-                    font-size: 2rem;
-                    padding: 0.5rem;
-                }
-                &:hover {
-                    background-color: $gris;
-                }
+            &:hover {
+                background-color: lavender;
             }
         }
     }
+
     .titulo {
-        @include hi ($negro, $rosa)
+        @include hi (white, $negro)
     }
     .seccion__secundariaContact {
-        background-color: $rosa;
+        background-color: $negro;
         height: auto;
         width: 50%;
         padding: 2rem;
         text-align: left;
-        margin: 3rem auto auto auto;
-        color: $negro;
+        margin: 8rem auto auto auto;
+        color: white;
         font-size: 2rem;
         font-weight: 500;
         line-height: 25px;

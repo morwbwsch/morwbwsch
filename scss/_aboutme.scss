@@ -2,6 +2,7 @@
     background-color: deeppink;
     @include fondo(0);
     nav {
+        width: 100%;
         .navbar-brand img {
             width: 15rem;
         }
@@ -36,22 +37,7 @@
             font-size: $h2__xl;
         }
     }
-    .seccion__secundariaAbout {
-        background-color: $gris;
-        height: auto;
-        width: 50%;
-        padding: 2rem;
-        text-align: justify;
-        margin: 3rem 3rem auto auto;
-        color: hsl(0, 0%, 0%);
-        font-size: 1.5rem;
-        font-weight: 900;
-        line-height: 25px;
-    }
-    .seccion__secundariaAbout--dos {
-        @extend .seccion__secundariaAbout;
-        margin: 3rem auto 3rem 3rem;
-    }
+
     footer {
         position: absolute;
         left: 0;
