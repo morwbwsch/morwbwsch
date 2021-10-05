@@ -287,6 +287,7 @@ html {
 
 .bodyDesign nav li:hover {
   background-color: #D9D9D9;
+  color: white;
 }
 
 .seccion__principalDesign {
@@ -342,6 +343,7 @@ html {
 
 .bodyContact nav li:hover {
   background-color: lavender;
+  color: white;
 }
 
 .bodyContact .titulo {
@@ -405,7 +407,8 @@ html {
 }
 
 .bodyArtworks nav li:hover {
-  background-color: #e5f2f7;
+  background-color: lightblue;
+  color: white;
 }
 
 .bodyArtworks .seccion__principalArtworks {
