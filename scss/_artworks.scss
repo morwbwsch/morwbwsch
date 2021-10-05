@@ -1,6 +1,6 @@
 .bodyArtworks {
     background-color: lightblue;
-    @include fondo(7);
+    @include fondo(4);
     nav {
         width: 100%;
         .navbar-brand img {
@@ -18,15 +18,15 @@
                 padding: 0.5rem;
             }
             &:hover {
-                background-color: lightblue;
+                background-color: rgb(229, 242, 247);
             }
         }
     }
 .seccion__principalArtworks {
     margin-left: 5%;
     h2 {
-        color: white;
-        background-color:$negro;
+        color: $negro;
+        background-color: lightblue;
         height: auto;
         width: fit-content;
         padding: 2rem;  
@@ -34,8 +34,4 @@
         font-size: $h2__xl;
     }
 }
-.seccion__secundariaArtworks {
-    text-align: center;
-    margin-top: 10%;
-    } 
 }
