@@ -24,6 +24,7 @@
     }
     .seccion__principalAbout {
         margin-left: 5%;
+        margin-bottom: 3rem;
         h1 {
             @include hi (white, $negro)
         }
