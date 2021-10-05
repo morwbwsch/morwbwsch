@@ -25,13 +25,13 @@
 .seccion__principalArtworks {
     margin-left: 5%;
     h2 {
-        color: $negro;
-        background-color: lightblue;
+        color: white;
+        background-color: $negro;
         height: auto;
         width: fit-content;
         padding: 2rem;  
         margin: 8rem auto; 
         font-size: $h2__xl;
+        }
     }
-}
 }
