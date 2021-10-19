@@ -1,14 +1,18 @@
 .bodyAbout {
-    background-color: deeppink;
+    background-color:  $rosa;
     @include fondo(0);
     nav {
         width: 100%;
         .navbar-brand img {
             width: 15rem;
         }
+        .logoHamburguesa {
+            width: 2.2rem;
+        }
         .menuSelec {
-            background-color: deeppink;
-            color: black;
+            background-color:  $rosa;
+            color: $negro;
+            width: fit-content;
         }
         li {
             margin: 1.4rem;
@@ -17,9 +21,9 @@
                 font-size: 2rem;
                 padding: 0.5rem;
             }
-            &:hover {
-                background-color:deeppink;
-                color: white;
+            #nav__link:hover {
+                background-color: $rosa;
+                color: $blanco;
             }
         }
     }
@@ -27,10 +31,10 @@
         margin-left: 5%;
         margin-bottom: 3rem;
         h1 {
-            @include hi (white, $negro)
+            @include hi ($blanco, $negro)
         }
         h2 {
-            color: white;
+            color: $blanco;
             background-color: $negro;
             height: auto;
             width: fit-content;
@@ -39,15 +43,19 @@
             font-size: $h2__xl;
         }
     }
+    .proyecto__texto {
+        font-size: 1.3rem;
+    }
 
     footer {
-        position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
+        height: 2rem;
         color: $negro;
         text-align: center;
         margin: 3rem auto;
+        font-size: 1.3rem;
     }
 }
 

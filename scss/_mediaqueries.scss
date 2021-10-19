@@ -1,2 +1,62 @@
+@media only screen and (max-width: 992px) {
+    .bodyIndex {
+        .seccion__principalIndex h1 {
+            font-size: $h1__xs;
+        }
+        nav li #nav__link:hover {
+            background-color: $negro;
+            color: $blanco;
+            width: fit-content;
+        }
+    }
+    .bodyAbout {
+        .seccion__principalAbout h1 {
+            font-size: $h1__xs;
+        }
+        nav li #nav__link:hover {
+            background-color: $negro;
+            color: $blanco;
+            width: fit-content;
+        }
+    }
+    .bodyArtworks {
+        .seccion__principalArtworks h1 {
+            font-size: $h1__xs;
+        }
+        nav li #nav__link:hover {
+            background-color: $negro;
+            color: $blanco;
+            width: fit-content;
+        }
+    }
+    .bodyDesign {
+        .seccion__principalDesign h1 {
+            font-size: $h1__xs;
+        }
+        nav li #nav__link:hover {
+            background-color: $negro;
+            color: $blanco;
+            width: fit-content;
+        }
+    }
+    .bodyContact {
+        .seccion__principalContact h1 {
+            font-size: $h1__xs;
+        }
+        nav li #nav__link:hover {
+            background-color: $negro;
+            color: $blanco;
+            width: fit-content;
+        }
+        .seccion__secundariaContact {
+            font-size: 1.5rem;
+        }
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
+    .bodyIndex .seccion__principalIndex h1 {
+        font-size: $h1__xs;
+    }
 }

@@ -6,9 +6,13 @@
         .navbar-brand img {
             width: 15rem;
         }
+        .logoHamburguesa {
+            width: 2.2rem;
+        }
         .menuSelec {
             background-color: $gris;
-            color: black;
+            color: $negro;
+            width: fit-content;
         }
         li {
             margin: 1.4rem;
@@ -17,9 +21,9 @@
                 font-size: 2rem;
                 padding: 0.5rem;
             }
-            &:hover {
+            #nav__link:hover {
                 background-color: $gris;
-                color: black;
+                color: $blanco;
             }
         }
     }
@@ -27,7 +31,7 @@
 .seccion__principalDesign {
     margin-left: 5%;
     h2 {
-        color: white;
+        color: $blanco;
         background-color: $negro;
         height: auto;
         width: fit-content;

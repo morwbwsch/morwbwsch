@@ -1,14 +1,18 @@
 .bodyArtworks {
-    background-color: lightblue;
+    background-color: $celeste;
     @include fondo(4);
     nav {
         width: 100%;
         .navbar-brand img {
             width: 15rem;
         }
+        .logoHamburguesa {
+            width: 2.2rem;
+        }
         .menuSelec {
-            background-color: lightblue;
-            color: black;
+            background-color: $celeste;
+            color: $negro;
+            width: fit-content;
         }
         li {
             margin: 1.4rem;
@@ -17,16 +21,16 @@
                 font-size: 2rem;
                 padding: 0.5rem;
             }
-            &:hover {
-                background-color: lightblue;
-                color: black;
+            #nav__link:hover {
+                background-color: $celeste;
+                color: $blanco;
             }
         }
     }
 .seccion__principalArtworks {
     margin-left: 5%;
     h2 {
-        color: white;
+        color: $blanco;
         background-color: $negro;
         height: auto;
         width: fit-content;

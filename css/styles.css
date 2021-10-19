@@ -27,9 +27,16 @@ html {
   width: 15rem;
 }
 
+.bodyIndex nav .logoHamburguesa {
+  width: 2.2rem;
+}
+
 .bodyIndex nav .menuSelec {
   background-color: #D9D9D9;
   color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .bodyIndex nav li {
@@ -37,13 +44,17 @@ html {
 }
 
 .bodyIndex nav li a {
-  color: #000000;
+  color: black;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-.bodyIndex nav li:hover {
+.bodyIndex nav li #nav__link:hover {
   background-color: yellow;
+  color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .bodyIndex .seccion__principalIndex {
@@ -52,7 +63,7 @@ html {
 
 .bodyIndex .seccion__principalIndex h1 {
   color: white;
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -65,7 +76,7 @@ html {
 
 .bodyIndex .seccion__principalIndex h2 {
   color: white;
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -76,18 +87,18 @@ html {
 }
 
 .bodyIndex footer {
-  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: #000000;
+  height: 2rem;
+  color: black;
   text-align: center;
   margin: 3rem auto;
   font-size: 1.3rem;
 }
 
 .bodyAbout {
-  background-color: deeppink;
+  background-color: #ff57b1;
   background-image: url("../imagenes/fondo0.png");
   background-size: 1920px;
   background-repeat: no-repeat;
@@ -101,9 +112,16 @@ html {
   width: 15rem;
 }
 
+.bodyAbout nav .logoHamburguesa {
+  width: 2.2rem;
+}
+
 .bodyAbout nav .menuSelec {
-  background-color: deeppink;
+  background-color: #ff57b1;
   color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .bodyAbout nav li {
@@ -111,13 +129,14 @@ html {
 }
 
 .bodyAbout nav li a {
-  color: #000000;
+  color: black;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-.bodyAbout nav li:hover {
-  background-color: deeppink;
+.bodyAbout nav li #nav__link:hover {
+  background-color: #ff57b1;
+  color: white;
 }
 
 .bodyAbout .seccion__principalAbout {
@@ -127,7 +146,7 @@ html {
 
 .bodyAbout .seccion__principalAbout h1 {
   color: white;
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -140,7 +159,7 @@ html {
 
 .bodyAbout .seccion__principalAbout h2 {
   color: white;
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -150,109 +169,19 @@ html {
   font-size: 4rem;
 }
 
+.bodyAbout .proyecto__texto {
+  font-size: 1.3rem;
+}
+
 .bodyAbout footer {
-  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  color: #000000;
+  height: 2rem;
+  color: black;
   text-align: center;
   margin: 3rem auto;
-}
-
-.bodyEjercicio {
-  background-color: #BF786F;
-}
-
-.bodyEjercicio h3 {
-  color: #D9D9D9;
-  font-size: 2rem;
-}
-
-.bodyEjercicio .boxModeling {
-  background-color: #D9D9D9;
-  height: 13rem;
-  width: 70rem;
-  padding: 2rem;
-  text-align: center;
-  margin-top: 5rem;
-  margin-left: 3rem;
-  margin-bottom: 5rem;
-  color: #000000;
-  font-size: 1.5rem;
-  font-weight: 900;
-  line-height: 25px;
-}
-
-.bodyEjercicio .flexboxSab {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.bodyEjercicio .flexboxSab .sab1 img {
-  height: 33vh;
-}
-
-.bodyEjercicio .flexboxSab .sab2 img {
-  height: 33vh;
-}
-
-.bodyEjercicio .flexboxSab .sab3 img {
-  height: 33vh;
-}
-
-.bodyEjercicio .grid {
-  padding: 1rem;
-  display: -ms-grid;
-  display: grid;
-  justify-items: center;
-  -ms-grid-columns: 40% 20% 40%;
-      grid-template-columns: 40% 20% 40%;
-  -ms-grid-rows: 50rem 50rem;
-      grid-template-rows: 50rem 50rem;
-  gap: 1rem;
-      grid-template-areas: "rectUno rectUno cuadUno" "cuadDos rectDos rectDos";
-}
-
-.bodyEjercicio .grid .fotoUno {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: cuadUno;
-}
-
-.bodyEjercicio .grid .fotoDos {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: cuadDos;
-}
-
-.bodyEjercicio .grid .fotoTres {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: rectUno;
-}
-
-.bodyEjercicio .grid .fotoCuatro {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: rectDos;
-}
-
-.bodyEjercicio .grid div img {
-  height: 100%;
-  width: 100%;
-}
-
-.bodyEjercicio .footerEjercicio {
-  margin: 3rem;
-  font-size: 1rem;
-  background-color: #BF786F;
+  font-size: 1.3rem;
 }
 
 .bodyDesign {
@@ -270,9 +199,16 @@ html {
   width: 15rem;
 }
 
+.bodyDesign nav .logoHamburguesa {
+  width: 2.2rem;
+}
+
 .bodyDesign nav .menuSelec {
   background-color: #D9D9D9;
   color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .bodyDesign nav li {
@@ -280,12 +216,12 @@ html {
 }
 
 .bodyDesign nav li a {
-  color: #000000;
+  color: black;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-.bodyDesign nav li:hover {
+.bodyDesign nav li #nav__link:hover {
   background-color: #D9D9D9;
   color: white;
 }
@@ -296,7 +232,7 @@ html {
 
 .seccion__principalDesign h2 {
   color: white;
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -312,7 +248,7 @@ html {
 }
 
 .bodyContact {
-  background-color: lavender;
+  background-color: #d6d6fc;
   background-image: url("../imagenes/fondo8.png");
   background-size: 1920px;
   background-repeat: no-repeat;
@@ -326,9 +262,16 @@ html {
   width: 15rem;
 }
 
+.bodyContact nav .logoHamburguesa {
+  width: 2.2rem;
+}
+
 .bodyContact nav .menuSelec {
-  background-color: lavender;
+  background-color: #d6d6fc;
   color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .bodyContact nav li {
@@ -336,19 +279,19 @@ html {
 }
 
 .bodyContact nav li a {
-  color: #000000;
+  color: black;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-.bodyContact nav li:hover {
-  background-color: lavender;
+.bodyContact nav li #nav__link:hover {
+  background-color: #d6d6fc;
   color: white;
 }
 
 .bodyContact .titulo {
   color: white;
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -360,7 +303,7 @@ html {
 }
 
 .bodyContact .seccion__secundariaContact {
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: 50%;
   padding: 2rem;
@@ -376,8 +319,19 @@ html {
   text-align: center;
 }
 
+.bodyContact .redes a img {
+  margin-top: 3rem;
+  width: 5rem;
+  height: 4rem;
+}
+
+.bodyContact .redes a img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .bodyArtworks {
-  background-color: lightblue;
+  background-color: #c2e3ee;
   background-image: url("../imagenes/fondo4.png");
   background-size: 1920px;
   background-repeat: no-repeat;
@@ -391,9 +345,16 @@ html {
   width: 15rem;
 }
 
+.bodyArtworks nav .logoHamburguesa {
+  width: 2.2rem;
+}
+
 .bodyArtworks nav .menuSelec {
-  background-color: lightblue;
+  background-color: #c2e3ee;
   color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .bodyArtworks nav li {
@@ -401,13 +362,13 @@ html {
 }
 
 .bodyArtworks nav li a {
-  color: #000000;
+  color: black;
   font-size: 2rem;
   padding: 0.5rem;
 }
 
-.bodyArtworks nav li:hover {
-  background-color: lightblue;
+.bodyArtworks nav li #nav__link:hover {
+  background-color: #c2e3ee;
   color: white;
 }
 
@@ -417,7 +378,7 @@ html {
 
 .bodyArtworks .seccion__principalArtworks h2 {
   color: white;
-  background-color: #000000;
+  background-color: black;
   height: auto;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -425,5 +386,67 @@ html {
   padding: 2rem;
   margin: 8rem auto;
   font-size: 4rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .bodyIndex .seccion__principalIndex h1 {
+    font-size: 3rem;
+  }
+  .bodyIndex nav li #nav__link:hover {
+    background-color: black;
+    color: white;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .bodyAbout .seccion__principalAbout h1 {
+    font-size: 3rem;
+  }
+  .bodyAbout nav li #nav__link:hover {
+    background-color: black;
+    color: white;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .bodyArtworks .seccion__principalArtworks h1 {
+    font-size: 3rem;
+  }
+  .bodyArtworks nav li #nav__link:hover {
+    background-color: black;
+    color: white;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .bodyDesign .seccion__principalDesign h1 {
+    font-size: 3rem;
+  }
+  .bodyDesign nav li #nav__link:hover {
+    background-color: black;
+    color: white;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .bodyContact .seccion__principalContact h1 {
+    font-size: 3rem;
+  }
+  .bodyContact nav li #nav__link:hover {
+    background-color: black;
+    color: white;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .bodyContact .seccion__secundariaContact {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bodyIndex .seccion__principalIndex h1 {
+    font-size: 3rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

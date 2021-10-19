@@ -1,14 +1,18 @@
 .bodyContact {
-    background-color: lavender;
+    background-color: $lavanda;
     @include fondo(8);
     nav {
         width: 100%;
         .navbar-brand img {
             width: 15rem;
         }
+        .logoHamburguesa {
+            width: 2.2rem;
+        }
         .menuSelec {
-            background-color: lavender;
-            color: black;
+            background-color: $lavanda;
+            color: $negro;
+            width: fit-content;
         }
         li {
             margin: 1.4rem;
@@ -17,15 +21,15 @@
                 font-size: 2rem;
                 padding: 0.5rem;
             }
-            &:hover {
-                background-color: lavender;
-                color: black;
+            #nav__link:hover {
+                background-color: $lavanda;
+                color: $blanco;
             }
         }
     }
 
     .titulo {
-        @include hi (white, $negro)
+        @include hi ($blanco, $negro)
     }
     .seccion__secundariaContact {
         background-color: $negro;
@@ -34,12 +38,21 @@
         padding: 2rem;
         text-align: left;
         margin: 8rem auto auto auto;
-        color: white;
+        color: $blanco;
         font-size: 2rem;
         font-weight: 500;
         line-height: 25px;
         .boton__formulario {
             text-align: center;
         }
+    }
+
+    .redes a img {
+        margin-top: 3rem;
+        width: 5rem;
+        height: 4rem;
+    }
+    .redes a img:hover {
+        transform: scale(1.2);
     }
 }
