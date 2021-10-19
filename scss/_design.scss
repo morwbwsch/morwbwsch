@@ -5,28 +5,28 @@
         width: 100%;
         .navbar-brand img {
             width: 15rem;
-        }
+            }
         .logoHamburguesa {
             width: 2.2rem;
-        }
+            }
         .menuSelec {
             background-color: $gris;
             color: $negro;
             width: fit-content;
-        }
+            }
         li {
             margin: 1.4rem;
             a {
                 color: $negro;
                 font-size: 2rem;
                 padding: 0.5rem;
-            }
+                }
             #nav__link:hover {
                 background-color: $gris;
                 color: $blanco;
+                }
             }
         }
-    }
     }
 .seccion__principalDesign {
     margin-left: 5%;
@@ -43,4 +43,8 @@
     text-align: center;
     margin-top: 10%;
     }
+}
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }

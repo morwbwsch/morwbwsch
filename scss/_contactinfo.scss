@@ -42,17 +42,34 @@
         font-size: 2rem;
         font-weight: 500;
         line-height: 25px;
+        .formulario {
+            font-size: 1.5rem;
+        }
         .boton__formulario {
             text-align: center;
+            font-weight: 500;
+            font-size: 1.5rem;
         }
     }
 
     .redes a img {
-        margin-top: 3rem;
+        margin-top: 3.5rem;
         width: 5rem;
         height: 4rem;
     }
     .redes a img:hover {
         transform: scale(1.2);
+    }
+
+    footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2rem;
+        color: $negro;
+        text-align: center;
+        margin: 3rem auto;
+        font-size: 1.3rem;
     }
 }

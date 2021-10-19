@@ -6,6 +6,7 @@
         <meta name="description" content="Mora Basch - Art & Design - Buenos Aires, Argentina - Contact: mora.basch@gmail.com">
         <meta name="keywords" content="ux, ui, ux/ui, design, art, portfolio, Mora, Basch, error, not found" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <title>Error</title>
@@ -13,6 +14,7 @@
         .bodyError {
             background-color: white;
             background-image:url("imagenes/fondoNegro.png");
+            background-position-x: center;
             }
         .bodyError nav {
             width: 100%;
@@ -24,6 +26,9 @@
             background-color: black;
             color: rgb(83, 83, 83);
             }
+        .logoHamburguesa {
+            width: 2.2rem;
+            }
         .bodyError nav li {
             margin: 1.4rem;
             }
@@ -34,6 +39,7 @@
             }
         .bodyError nav li a:hover {
             background-color: black;
+            color: white;
             }
         .seccion__principalError h1 {
             color: black;
@@ -45,41 +51,51 @@
             font-weight: 700;
             font-size: 6rem;
             }
-        .seccion__principalError h2 {
-            color: black;
-            background-color: white;
-            height: auto;
-            width: fit-content;
-            padding: 2rem;  
-            margin: 0 auto auto 3rem; 
-            font-size: 4rem;
-            }
         .error__back {
             display: block;
             text-align: center;
             margin-top: 25rem;
             }
         .error__back a {
-                text-decoration: none;
-                color: rgb(255, 255, 255);
-                font-size: 5rem;
-                font-weight: 900;
-                text-align: center;
-                }
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 5rem;
+            font-weight: 700;
+            text-align: center;
+            }
         .error__back a:hover {
-                text-decoration: none;
-                color: black;
-                background-color: white;
-                }
-        </style>
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            }
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2rem;
+            color: black;
+            text-align: center;
+            margin: 3rem auto;
+            font-size: 1.3rem;
+            }
+        @media only screen and (max-width: 992px) {
+        .seccion__principalError h1 {
+            font-size: 3rem;
+            }
+        .error__back a {
+            font-size: 2.5rem;
+            }
+        }
+    </style>
     </head>
 <body class="bodyError">
     <header>
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="imagenes/logo1.svg" alt="Logo" /></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                  Menu
+              <button class="navbar-toggler logoHamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                  <img src="imagenes/logoHamburguesa.svg" alt="Logo Hamburguesa">
                   <i class="fas fa-bars ms-1"></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -95,14 +111,18 @@
       </header>
 
     <section class="animate__animated animate__fadeIn seccion__principalError">
-        <h1>Hi</h1>
-        <h2>I don't think you're supposed to be here.</h2>
+        <h1>Hi. I don't think you're supposed to be here.</h1>
     </section>
 
-    <div class="error__back">
+    <div class="error__back animate__animated animate__fadeIn">
         <a href="index.html">Go back to the homepage</a>
     </div>
 
+    <footer>
+        <p>Powered by La Piba Ninja</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 </body>
 </html>
