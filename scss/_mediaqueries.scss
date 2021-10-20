@@ -20,7 +20,7 @@
         }
     }
     .bodyArtworks {
-        .seccion__principalArtworks h1 {
+        .seccion__principalArtworks h2 {
             font-size: $h1__xs;
         }
         nav li #nav__link:hover {
@@ -30,7 +30,7 @@
         }
     }
     .bodyDesign {
-        .seccion__principalDesign h1 {
+        .seccion__principalDesign h2 {
             font-size: $h1__xs;
         }
         nav li #nav__link:hover {
@@ -50,13 +50,9 @@
         }
         .seccion__secundariaContact {
             font-size: 1.5rem;
+            margin-left: 10%;
+            margin-right: 10%;
         }
     }
 
-}
-
-@media only screen and (max-width: 768px) {
-    .bodyIndex .seccion__principalIndex h1 {
-        font-size: $h1__xs;
-    }
 }

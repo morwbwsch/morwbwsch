@@ -170,7 +170,7 @@ html {
 }
 
 .bodyAbout .proyecto__texto {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .bodyAbout footer {
@@ -311,10 +311,11 @@ html {
 .bodyContact .seccion__secundariaContact {
   background-color: black;
   height: auto;
-  width: 50%;
   padding: 2rem;
   text-align: left;
-  margin: 8rem auto auto auto;
+  margin-top: 8rem;
+  margin-left: 25%;
+  margin-right: 25%;
   color: white;
   font-size: 2rem;
   font-weight: 500;
@@ -439,7 +440,7 @@ html {
     width: -moz-fit-content;
     width: fit-content;
   }
-  .bodyArtworks .seccion__principalArtworks h1 {
+  .bodyArtworks .seccion__principalArtworks h2 {
     font-size: 3rem;
   }
   .bodyArtworks nav li #nav__link:hover {
@@ -449,7 +450,7 @@ html {
     width: -moz-fit-content;
     width: fit-content;
   }
-  .bodyDesign .seccion__principalDesign h1 {
+  .bodyDesign .seccion__principalDesign h2 {
     font-size: 3rem;
   }
   .bodyDesign nav li #nav__link:hover {
@@ -471,12 +472,8 @@ html {
   }
   .bodyContact .seccion__secundariaContact {
     font-size: 1.5rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .bodyIndex .seccion__principalIndex h1 {
-    font-size: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
