@@ -242,11 +242,6 @@ html {
   font-size: 4rem;
 }
 
-.seccion__principalDesign .seccion__secundariaDesign {
-  text-align: center;
-  margin-top: 10%;
-}
-
 .carousel-control-next,
 .carousel-control-prev {
   -webkit-filter: invert(100%);
