@@ -28,6 +28,17 @@
             color: $blanco;
             width: fit-content;
         }
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2rem;
+            color: $negro;
+            text-align: center;
+            margin: 3rem auto;
+            font-size: 1.3rem;
+        }
     }
     .bodyDesign {
         .seccion__principalDesign h2 {
@@ -37,6 +48,17 @@
             background-color: $negro;
             color: $blanco;
             width: fit-content;
+        }
+        footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 2rem;
+            color: $negro;
+            text-align: center;
+            margin: 3rem auto;
+            font-size: 1.3rem;
         }
     }
     .bodyContact {

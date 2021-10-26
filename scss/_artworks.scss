@@ -43,4 +43,12 @@
     .carousel-control-prev {
         filter: invert(100%);
         }
+    footer {
+        width: 100%;
+        height: 2rem;
+        color: $negro;
+        text-align: center;
+        margin: 3rem auto;
+        font-size: 1.3rem;
+    }
 }

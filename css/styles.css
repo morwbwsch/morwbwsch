@@ -171,11 +171,10 @@ html {
 
 .bodyAbout .proyecto__texto {
   font-size: 1.5rem;
+  padding: 10%;
 }
 
 .bodyAbout footer {
-  left: 0;
-  bottom: 0;
   width: 100%;
   height: 2rem;
   color: black;
@@ -226,11 +225,11 @@ html {
   color: white;
 }
 
-.seccion__principalDesign {
+.bodyDesign .seccion__principalDesign {
   margin-left: 5%;
 }
 
-.seccion__principalDesign h2 {
+.bodyDesign .seccion__principalDesign h2 {
   color: white;
   background-color: black;
   height: auto;
@@ -242,10 +241,19 @@ html {
   font-size: 4rem;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.bodyDesign .carousel-control-next,
+.bodyDesign .carousel-control-prev {
   -webkit-filter: invert(100%);
           filter: invert(100%);
+}
+
+.bodyDesign footer {
+  width: 100%;
+  height: 2rem;
+  color: black;
+  text-align: center;
+  margin: 3rem auto;
+  font-size: 1.3rem;
 }
 
 .bodyContact {
@@ -414,6 +422,15 @@ html {
           filter: invert(100%);
 }
 
+.bodyArtworks footer {
+  width: 100%;
+  height: 2rem;
+  color: black;
+  text-align: center;
+  margin: 3rem auto;
+  font-size: 1.3rem;
+}
+
 @media only screen and (max-width: 992px) {
   .bodyIndex .seccion__principalIndex h1 {
     font-size: 3rem;
@@ -445,6 +462,17 @@ html {
     width: -moz-fit-content;
     width: fit-content;
   }
+  .bodyArtworks footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    color: black;
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 1.3rem;
+  }
   .bodyDesign .seccion__principalDesign h2 {
     font-size: 3rem;
   }
@@ -454,6 +482,17 @@ html {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+  }
+  .bodyDesign footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+    color: black;
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 1.3rem;
   }
   .bodyContact .seccion__principalContact h1 {
     font-size: 3rem;
